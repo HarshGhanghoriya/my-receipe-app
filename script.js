@@ -110,18 +110,19 @@ function fetchMeals(firstLetter, searchText){
         });
         element.innerHTML = innerElement;
       }
+        // If specific meal get clicked amount the list of suggestion shown then invoke below function 
+        const specificMeals = document.querySelectorAll(".specific-meal");
+        specificMeals.forEach((meal) => {
+        meal.addEventListener("click", function () {
+            const selectedMeal = meal.textContent;
+            element.innerHTML = ""; // Clear suggestion box
+            searchInput.value = selectedMeal; // Set the value of search input to the selected meal
+            searchMeal(); // Perform the search for the selected meal
+        });
+        });
     };
 
-// If specific meal get clicked amount the list of suggestion shown then invoke below function 
-    const specificMeals = document.querySelectorAll(".specific-meal");
-    specificMeals.forEach((meal) => {
-      meal.addEventListener("click", function () {
-        const selectedMeal = meal.textContent;
-        element.innerHTML = ""; // Clear suggestion box
-        searchInput.value = selectedMeal; // Set the value of search input to the selected meal
-        searchMeal(); // Perform the search for the selected meal
-      });
-    });
+
 
   // !!Below listener will create suggested list of meals by 1st letter and then more closely meal by filterData function  
   searchInput.addEventListener("input", function () {
