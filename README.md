@@ -49,8 +49,8 @@ You can also add a meal in your favourite list and it will get store by using lo
 ## Screenshots
 
 ![App Screenshot](https://github.com/jiteshshivgan/Receipe-App/blob/main/Images/Screenshot_main.PNG)
-![App Screenshot](https://github.com/jiteshshivgan/Receipe-App/blob/main/Images/Screenshot_main.PNG)
-![App Screenshot](https://github.com/jiteshshivgan/Receipe-App/blob/main/Images/Screenshot_main.PNG)
+![App Screenshot](https://github.com/jiteshshivgan/Receipe-App/blob/main/Images/Screenshot_meal.PNG)
+![App Screenshot](https://github.com/jiteshshivgan/Receipe-App/blob/main/Images/Screenshot_details.PNG)
 
 ## Tech Stack
 
