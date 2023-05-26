@@ -33,6 +33,7 @@ mealDetails.addEventListener("click", e=>{
       const mealIndex=clickedMeal.getAttribute("index");
       console.log(mealIndex);
       localStorage.removeItem(mealIndex);
+      clickedMeal.innerHTML="Removed";
     }
 
 
