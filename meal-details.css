@@ -1,0 +1,40 @@
+/* Meal details  */
+
+#meal-image{
+    width: 50%;
+    height: auto;
+}
+#meal-image{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+#meal-image img{
+    height: 400px;
+    width: 30%;
+    border: 5px solid white;
+}
+#meal-details{
+    width: 100%;
+    height: auto;
+    padding: 0px 20%;
+}
+#meal-details p{
+    font-size: 1.5rem;
+    font-weight:200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 10px solid white;
+    padding: 5px;
+    border-radius: 13px;
+}
+#meal-ingredients{
+    width:100%;
+    height: auto;
+    margin: 5px 20%;
+    display: flex;
+    flex-direction: column; 
+    border: 5px solid pink;
+    border-radius: 13px;
+    padding: 5px;
+    font-size: 1.5rem;
+}

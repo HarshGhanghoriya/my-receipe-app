@@ -1,0 +1,105 @@
+@media only screen and (max-width:1229px){
+    /* navbar section  */
+    navbar a{
+        font-size: 2.5rem;
+    }
+    
+    /* meal section  */
+    #meals-type{
+        flex-wrap: wrap;
+    }
+    
+    .meal{
+        height: auto;
+        width: 40%;
+    }
+    .meal img{
+        height: 90%;
+    }
+
+    /* search form section  */
+    #search-form input {
+        height: 50px;
+        width: 300px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    #search-form button {
+        height: 50px;
+        width: 50px;
+    }
+
+    #search-form label {
+        font-size: 2rem;
+    }
+
+    /* utility section   */
+    .h-primary {
+        font-size: 4rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    /* !!MEAL DETAILS PAGE!!  */
+    #meal-image img{
+        width: 50%;
+    }
+
+    #meal-details {
+        padding: 0px 10%;
+    }
+    #meal-details p{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    #meal-ingredients {
+    margin: 5px 10%;
+    }
+    #meal-ingredients p{
+        font-size: 1.5rem;
+    }
+
+   /* !!FAVOURITE PAGE!! */
+        .favourite-meal{
+            width: 45%;
+            margin: 30px 0px;
+        }
+        .favourite-meal img{
+            height: auto;
+        }
+        .remove-from-favourite {
+            font-size: 2.7rem;
+        }    
+
+
+        /* Footer section  */
+        footer p{
+            font-size: 2rem;
+        }
+    }
+
+
+
+
+
+
+@media only screen and (max-width:900px){
+/* meal section  */
+ .meal{
+        height: auto;
+        width: 90%;
+    }
+
+#meal-image img{
+    width: 90%;
+}
+
+/* !!FAVOURITE PAGE!! */
+.favourite-meal{
+    width: 90%;
+    margin: 30px 0px;
+}
+.remove-from-favourite {
+    font-size: 2.7rem;
+} 
+}
