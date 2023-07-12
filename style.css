@@ -12,10 +12,11 @@ html{
 }
 /* Navbar  */
 navbar{
+    
     display: flex;
     flex-direction: row;
     justify-content: end;
-    padding: 10px;
+    padding: 10px 10%;
     background-color:black;
     opacity: 0.5;
     position: sticky;
@@ -34,7 +35,8 @@ navbar a{
     height:auto;
     position: relative;
     /* border: 1px solid brown; */
-    padding: 20px 20px;
+    padding: 20px 0px;
+    margin: auto;
 }
 
 body::before{
@@ -200,6 +202,63 @@ footer{
     padding: 0px 10px;
 }
 
+@media screen and (max-width: 950px) {
+    #navbar{
+        justify-content: space-between;
+    }
 
+    #navbar a{
+        font-size: 2.2rem;
+    }
+
+    #meal-container h1{
+        font-size: 2rem;
+    }
+
+   /* search form section  */
+   #search-form label {
+    font-size: 1.5rem;
+    }
+
+   #search-form input {
+    height: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+    #search-form button {
+    height: 2rem;
+    width: 2rem;
+}
+
+#meals-type{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+
+.meal{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    #meals-type{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+    
+    
+    .meal{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+    }
+}
 
 

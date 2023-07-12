@@ -76,7 +76,7 @@ mealsContainer.addEventListener("click", e=>{
       const mealID=addToFavourite.getAttribute("data-mealId");
       console.log(mealID);
       localStorage.setItem(i, mealID);
-       addToFavourite.innerHTML = "Added";
+      addToFavourite.innerHTML = "Added"
       i++;
    }
      
