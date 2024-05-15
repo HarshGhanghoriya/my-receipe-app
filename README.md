@@ -35,7 +35,7 @@ You can also add a meal in your favourite list and it will get store by using lo
 
 ## Authors
 
-- Made by [@JITESH SHIVGAN](https://github.com/jiteshshivgan)
+- Made by [@HARSH GHANGHORIYA](https://github.com/HarshGhanghoriya)
 
 
 ## Features
